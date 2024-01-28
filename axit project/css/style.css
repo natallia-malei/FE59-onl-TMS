@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.awesome_block{
+    /*background: silver;*/ 
+    margin: 10px 20px 30px 40px;
+    padding: 10px 30px 10px 20px;
+    text-align: center;
+  
+  }
+.awesome_block_title{
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+.line{
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    margin: 0 auto 20px;
+  }
+
+.awesome_block_description{
+    color: #86878B;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+  }
+
+.awesome_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.awesome_image_section{
+    /*display: block;*/
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    width: 370px;
+    height: 300px;
+    /*border: 2px solid silver;*/
+} 
+
+.thoughtful_design{
+    color: #000000;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-style: bold;
+    line-height: normal;   
+    margin: 20px 20px 20px 20px;
+}
+
+.thoughtful_design_title {
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
