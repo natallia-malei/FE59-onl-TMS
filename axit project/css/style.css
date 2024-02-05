@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,12 +12,13 @@
 }
 
 .wrapper {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -85,7 +86,7 @@
     margin-bottom: 26px;
 }
 
-.tab__btn {
+.tab__button {
     display: block;
     width: 270px;
     padding: 15px 0;
@@ -121,6 +122,7 @@
     line-height: normal;
     font-weight: 400;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .separator {
@@ -137,7 +139,7 @@
     font-style: normal;
     line-height: normal;
     font-weight: 400;
-    margin: 40px 0 92px 0;
+    margin: 40px 0 40px 0;
 }
 
 .awesome__cards {
@@ -152,7 +154,7 @@
     padding: 0 15px;
 }
 
-.card svg{
+.card svg {
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -177,4 +179,68 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.price {
+    padding-top: 82px;
+    padding-bottom: 110px;
+    background-color: #F5F5F5;
+}
+
+.price_list_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    width: 370px;
+}
+
+#list_header {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: capitalize;
+    background: #000;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(51, 51, 51);
+    color: #F5F5F5;
+}
+
+#list_price {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(51, 51, 51);
+    color: #F5F5F5;
+}
+
+#free_for_life {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 50px;
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(51, 51, 51);
+    color: #86878B;
+}
+
+#list_price_regular {
+    background: rgb(255, 255, 255);
+    color: #86878B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: capitalize;
+    border: 2px solid rgb(245, 245, 245);
 }
