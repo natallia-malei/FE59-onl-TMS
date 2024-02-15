@@ -4,9 +4,75 @@
     box-sizing: border-box;
   }
 
- 
+  ul li {list-style: none;}
+  button {cursor: pointer;}
+  button::-moz-focus-inner{padding:0; border:0;}
+  a, a:visited {text-decoration: none;}
+  a:hover {text-decoration: none;}
+  img {vertical-align: top;}
+  h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: inherit;} 
+
+body {
+  padding: 30px; 
+}
+
+.list {
+  font-size: 18px; 
+}
+
+.list li {
+  margin: 0px 0px 10px 0px; 
+  position: relative;
+  padding: 30px;
+}
+
+.list li:before {
+  content: '';
+  background: url('../img/music.jpg') 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 30px; 
+  left: 0;
+}
+
 .block {
-  
+  position: relative; 
+  border: 5px solid red;
+  max-width: 800px;
+  margin: 0 auto; 
+  height: 1500px;
+}
+
+.block div {
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.block_1 {
+  background-color: yellow;
+  position:static; 
+}
+.block_2 {
+  background-color: grey;
+  position:sticky; 
+  width: 100%;
+  top: 0; 
+  left: 0; 
+  z-index: 1; 
+
+}
+
+.block_3 {
+  background-color: green;
+  position:relative;
+}
+
+.block_4 {
+  background-color: orange;
+  position:sticky;
 }
 
 .block_row{

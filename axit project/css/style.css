@@ -11,11 +11,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .container {
     max-width: 1200px;
     padding: 0 15px;
@@ -125,6 +120,17 @@
     text-transform: uppercase;
 }
 
+/* .section-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 85px);
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+} */
+
 .separator {
     width: 170px;
     height: 1px;
@@ -144,7 +150,7 @@
 
 .awesome__cards {
     display: block;
-    margin: 0 -30px;
+    margin: 0 -15px;
     text-align: center;
 }
 
@@ -243,4 +249,73 @@ ul {
     line-height: 50px;
     text-transform: capitalize;
     border: 2px solid rgb(245, 245, 245);
+}
+
+.customers {
+    padding: 107px 0;
+}
+
+.customers-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-card {
+    width: calc(100% / 3 - 60px / 3);
+}
+
+.customer-card__review {
+    position: relative;
+    padding: 37px 25px;
+    border-radius: 10px;
+    background: rgb(226, 226, 226);
+    text-align: center;
+    color: rgb(134, 135, 139);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.customer-card__review::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 19%;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid rgb(226, 226, 226);
+}
+
+.customer {
+    display: flex;
+    margin-top: 65px;
+    gap: 30px;
+}
+
+.customer__img img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+}
+
+.customer__info__name {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+
+.customer__info__profession {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
 }
